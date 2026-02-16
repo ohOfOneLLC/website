@@ -2,8 +2,8 @@ name: deploy-to-aws
 run-name: Deploying ${{ github.ref }}
 on:
   push:
-    # branches:
-    #   - "main"
+    branches:
+      - "main"
 
 jobs:
   build-and-deploy:
